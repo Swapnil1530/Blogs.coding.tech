@@ -1,4 +1,4 @@
-export const dynamic = "force-dynamic"
+// export const dynamic = "force-dynamic"
 import classes from "./page.module.css";
 import React from "react";
 import BlogCard from "../components/blogcard/BlogCard";
