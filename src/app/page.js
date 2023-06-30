@@ -1,4 +1,4 @@
-export const dynamic = "auto"
+export const fetchCache = "force-no-store"
 import classes from "./page.module.css";
 import React from "react";
 import BlogCard from "../components/blogcard/BlogCard";
