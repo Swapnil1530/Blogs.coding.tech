@@ -21,7 +21,7 @@ const Register = () => {
             return ;
         }
         try {
-            const res = await fetch('https://blogs-coding-tech-bb5gqttrs-sonupandit9693.vercel.app/api/register',{
+            const res = await fetch(`${process.env.BASE_URL}/api/register`,{
                 headers:{
                     'Content-Type': 'application/json'
                 },
